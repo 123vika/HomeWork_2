@@ -38,13 +38,13 @@ public class lesson2 {
         for (int loop= 0; loop <exc.length; loop++){
             for (int loop2 = 0 ; loop2 <exc.length; loop2 ++){
 
-                int_num = Character.getNumericValue(exc[loop][loop2]); // converting
+                int_num =Character.getNumericValue(exc[loop][loop2]); // converting
 
                 System.out.println("int_num : "+ int_num);
 
             if (int_num <0 || int_num >9){
 
-                System.out.println(" Не правильная  ячейка : x - " + loop + " y - " +loop2 );
+                System.out.println(" Не правильная ячейка : x - "+ loop + " y - " +loop2 );
                 throw new MyArrayDataException();
 
                 }
