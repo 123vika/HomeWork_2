@@ -44,7 +44,7 @@ public class lesson2 {
 
             if (int_num <0 || int_num >9){
 
-                System.out.println(" Не правильная ячейка : x - " + loop + " y - " +loop2 );
+                System.out.println(" Не правильная  ячейка : x - " + loop + " y - " +loop2 );
                 throw new MyArrayDataException();
 
                 }
