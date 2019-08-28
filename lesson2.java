@@ -38,7 +38,7 @@ public class lesson2 {
         for (int loop= 0; loop <exc.length; loop++){
             for (int loop2 = 0 ; loop2 <exc.length; loop2 ++){
 
-                int_num = Character.getNumericValue(exc[loop][loop2]); // converting
+                int_num =Character.getNumericValue(exc[loop][loop2]); // converting
 
                 System.out.println("int_num : "+ int_num);
 
